@@ -25,6 +25,7 @@ class Solution {
                     q.offer(edge[0]);
             }
         }
+        
         int low = 0, high = maxCost;
         int ans = -1;
         while (low <= high) {
