@@ -19,6 +19,7 @@ class Solution {
         for (int i = 1; i <= m; i++) {
             pow10[i] = (pow10[i - 1] * 10) % MOD;
         }
+        
         for (int i = 0; i < m; i++) {
             prefixSum[i + 1] = prefixSum[i] + digits.get(i);
             prefixNum[i + 1] = (prefixNum[i] * 10 + digits.get(i)) % MOD;
