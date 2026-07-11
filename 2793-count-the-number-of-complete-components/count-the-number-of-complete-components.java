@@ -30,7 +30,6 @@ class Solution {
                 edgeCount = 0;
 
                 dfs(i);
-
                 edgeCount /= 2;
 
                 int expected = nodeCount * (nodeCount - 1) / 2;
@@ -42,7 +41,6 @@ class Solution {
 
         return ans;
     }
-
     private void dfs(int node) {
 
         visited[node] = true;
