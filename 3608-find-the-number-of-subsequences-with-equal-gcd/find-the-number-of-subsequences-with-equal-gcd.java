@@ -3,6 +3,7 @@ class Solution {
     int[][][] dp;
     int[] nums;
     int n;
+    
     public int subsequencePairCount(int[] nums) {
         this.nums = nums;
         n = nums.length;
