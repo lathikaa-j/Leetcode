@@ -5,7 +5,6 @@ class Solution {
 
         return gcd(sumOdd, sumEven);
     }
-
     private int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;
