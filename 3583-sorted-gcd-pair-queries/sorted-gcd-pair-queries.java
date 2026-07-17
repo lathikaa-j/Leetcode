@@ -4,7 +4,6 @@ class Solution {
         int max = 0;
         for (int x : nums)
             max = Math.max(max, x);
-
         int[] freq = new int[max + 1];
 
         for (int x : nums)
