@@ -4,6 +4,7 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             last[s.charAt(i) - 'a'] = i;
         }
+        
         boolean[] visited = new boolean[26];
         Stack<Character> stack = new Stack<>();
 
