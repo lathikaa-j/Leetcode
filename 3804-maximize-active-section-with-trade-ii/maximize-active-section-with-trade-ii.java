@@ -11,7 +11,7 @@ class SegmentTree {
 
         build(1, 0, n - 1);
     }
-
+    
     private void build(int node, int left, int right) {
 
         if (left == right) {
