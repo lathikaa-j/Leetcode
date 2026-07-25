@@ -15,7 +15,6 @@ class Solution {
 
             n /= 10;
         }
-
         return max1 * max2;
     }
 }
