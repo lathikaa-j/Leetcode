@@ -6,7 +6,7 @@ class Solution {
         for (char ch : s.toCharArray()) {
             freq[ch - 'a']++;
         }
-
+        
         StringBuilder left = new StringBuilder();
         String middle = "";
 
