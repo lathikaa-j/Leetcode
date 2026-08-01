@@ -9,7 +9,7 @@ class Solution {
 
         return solve(nums, 0, n - 1) >= 0;
     }
-
+    
     private int solve(int[] nums, int i, int j) {
 
         if (i == j)
